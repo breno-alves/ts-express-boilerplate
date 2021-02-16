@@ -6,7 +6,6 @@
   "scripts": {
     "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules ./src/shared/infra/http/app.ts",
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
-    
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -14,7 +13,9 @@
     "pg": "^8.5.1",
     "tsyringe": "^4.4.0",
     "typeorm": "^0.2.31",
-    "uuidv4": "^6.2.6"
+    "uuidv4": "^6.2.6",
+    "dotenv": "^8.2.0"
+
   },
   "devDependencies": {
     "@types/cors": "^2.8.10",
